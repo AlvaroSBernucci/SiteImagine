@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fira Sans", Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+body{
+  background-color: var(--cor-4);
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.container{
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.container-2{
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.botao{
+    background-color: var(--cor-2);
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: block;
+}
+.botao:hover{
+  background-color: var(--cor-3);
+  box-shadow:0px 2px 20px var(--cor-3,0.1);
+}
+@media (max-width:800px){
+  .botao{
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,30 @@
+.footer{
+  padding: 80px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+.contato-info,
+.contato-lista{
+  display: grid;
+  gap: 20px;
+}
+@media (max-width: 1050px){
+  .footer{
+    margin: 0px 20px;
+  }
+}
+@media (max-width:800px){
+  .footer{
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+  .footer p{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .contato-lista{
+    font-size: 1.5rem;
+  }
+}
